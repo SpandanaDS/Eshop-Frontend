@@ -15,6 +15,12 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { HttpClientModule } from '@angular/common/http';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { ProductPageComponent } from './product/product-page/product-page.component';
+import { AdminDashboardComponent } from './user/admin-dashboard/admin-dashboard.component';
+import { AutomotiveComponent } from './product/automotive/automotive.component';
+import { BabycareComponent } from './product/babycare/babycare.component';
+import { BagsComponent } from './product/bags/bags.component';
+
 
 
 @NgModule({
@@ -25,7 +31,13 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
     FooterComponent,
     SigninModalComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    ProductPageComponent,
+    AdminDashboardComponent,
+    AutomotiveComponent,
+    BabycareComponent,
+    BagsComponent,
+   
   ],
   imports: [
     BrowserModule,
